@@ -1,8 +1,9 @@
 # httphashtool
 httphashtool is a simple tool which makes http request and prints the address of the request along with MD5 hash of the response.
 
-Tool performs the request in parallel, with a default of 10 parallel requests
-http request has a timeout of 5 seconds
+Tool performs the request in parallel, with a default of 10 parallel requests.
+
+http request has a timeout of 5 seconds.
 
 
 # Install
