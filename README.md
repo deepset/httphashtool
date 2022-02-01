@@ -23,7 +23,7 @@ cd github.com/deepset/httphashtool
 
 go test -v ./...
       
-      OR
+or
       
 cd github.com/deepset/httphashtool/script
 
