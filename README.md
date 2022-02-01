@@ -6,7 +6,7 @@ http request has a timeout of 5 seconds
 
 
 # Install
-go get github.com/deepset/httphashtool
+git clone github.com/deepset/httphashtool
 
 cd github.com/deepset/httphashtool
 
@@ -23,7 +23,7 @@ cd github.com/deepset/httphashtool
 
 go test -v ./...
       
-or
+---
       
 cd github.com/deepset/httphashtool/script
 
