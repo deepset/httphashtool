@@ -22,7 +22,9 @@ $ ./httphashtool -parallel 3 google.com adjust.com twitter.com www.facebook.com 
 cd github.com/deepset/httphashtool
 
 go test -v ./...
+      
       OR
+      
 cd github.com/deepset/httphashtool/script
 
 go test -v
