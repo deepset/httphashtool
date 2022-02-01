@@ -6,7 +6,7 @@ Tool performs the request in parallel, with a default of 10 parallel requests.
 http request has a timeout of 5 seconds.
 
 
-# Install
+## Install
 git clone github.com/deepset/httphashtool
 
 cd github.com/deepset/httphashtool
@@ -14,12 +14,12 @@ cd github.com/deepset/httphashtool
 go build
 
 
-# Example
+## Example
 $ ./httphashtool adjust.com
 
 $ ./httphashtool -parallel 3 google.com adjust.com twitter.com www.facebook.com http://reddit.com
 
-# Testing
+## Testing
 cd github.com/deepset/httphashtool
 
 go test -v ./...
